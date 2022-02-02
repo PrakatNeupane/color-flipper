@@ -22,13 +22,24 @@ const changeColor = () => {
 
     switch (random) {
         case (1):
-            container.classList.remove('container'); container.classList.add('class-red');
+            container.classList.remove('class-green');
+            container.classList.remove('class-blue');
+            container.classList.add('class-red');
+            colorName.textContent = 'Red'
             break;
-        case (2): container.classList.remove('container');
+        case (2):
+            container.classList.remove('class-red');
+            container.classList.remove('class-blue');
             container.classList.add('class-green');
+            colorName.textContent = 'Green'
+
             break;
-        case (3): container.classList.remove('container');
+        case (3):
+            container.classList.remove('class-green');
+            container.classList.remove('class-red');
             container.classList.add('class-blue');
+            colorName.textContent = 'Blue'
+
             break;
     }
 

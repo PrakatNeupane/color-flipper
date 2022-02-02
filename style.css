@@ -19,3 +19,12 @@
 .class-blue {
   background: blue;
 }
+
+.click-me {
+  font-size: 1.5rem;
+  border-radius: 50px;
+}
+
+.click-me:hover {
+  cursor: pointer;
+}
